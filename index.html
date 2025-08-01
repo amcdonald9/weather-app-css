@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌦 Weather Finder</h1>
+
+    <form id="weatherForm" class="weather-form">
+      <input 
+        type="text" 
+        id="cityInput" 
+        placeholder="City (e.g. Little Rock)" 
+        required
+      />
+      <input 
+        type="text" 
+        id="stateInput" 
+        placeholder="State Code (e.g. AR)" 
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="weatherResult" class="result hidden">
+      <h2 id="locationName"></h2>
+      <p id="temperature"></p>
+      <p id="description"></p>
+      <p id="humidity"></p>
+    </div>
+  </div>
+</body>
+</html>
