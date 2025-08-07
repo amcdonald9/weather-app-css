@@ -32,7 +32,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Project Link:** _[Add my GitHub Pages or live link here]_
+**Project Link:** _[https://amcdonald9.github.io/weather-app-css/]_
 
 ---
 
